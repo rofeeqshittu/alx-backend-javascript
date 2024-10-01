@@ -3,6 +3,8 @@
 ## Project Overview
 This project focuses on understanding and implementing features of ECMAScript 6 (ES6) through a series of tasks. It aims to enhance your JavaScript programming skills by familiarizing you with modern features such as arrow functions, template literals, destructuring, and more.
 
+![es6-arrow-fxn.png](es6-arrow-fxn.png)
+
 ## Concepts
 For this project, we expect you to understand the following concepts:
 
