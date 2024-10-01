@@ -1,101 +1,66 @@
-# ES6 Basics - JavaScript Project
+# 0x00. ES6 Basics
 
-This project is aimed at exploring the fundamental concepts of **ES6** (ECMAScript 2015) in JavaScript. The project involves the use of various new features in ES6 including arrow functions, template literals, default parameters, and more.
+## Concepts
+This project is focused on the following concepts in JavaScript:
+- **JavaScript ES6 programming**
+- **Software Linter**
 
-## Concepts Covered
-
-- What is ES6
-- New features introduced in ES6
-- Constants vs Variables
+## Learning Objectives
+By the end of this project, you will be able to explain:
+- What ES6 is and its new features
+- The difference between `const` and `let`
 - Block-scoped variables
-- Arrow functions and function parameters
-- Rest and Spread parameters
+- Arrow functions
+- Rest and spread parameters
 - String templating in ES6
-- Object creation and properties
-- Iterators and for-of loops
+- Object creation in ES6
+- Iterators and the `for-of` loop
 
-## Setup Instructions
-
-To get started with the project, install **NodeJS 12.11.x** and all the dependencies. Follow the steps below:
-
-1. Install NodeJS:
-
+## Project Setup
+1. **Node.js 12.11.x** is required. You can install it with:
     ```bash
     curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
     sudo bash nodesource_setup.sh
     sudo apt install nodejs -y
     ```
-
 2. Verify installation:
-
     ```bash
-    nodejs -v
+    node -v
     npm -v
     ```
 
-3. Install project dependencies:
-
+3. **Install Jest, Babel, and ESLint** in your project directory:
     ```bash
     npm install
     ```
 
-## Tasks and Files
-
-### 0. Const or let?
-Modify the variables in `taskFirst` to use `const` and in `taskNext` to use `let`.
-
-- [0-constants.js](./0-constants.js)
-
-### 1. Block Scope
-Modify the variables inside `taskBlock` to ensure they are block-scoped.
-
-- [1-block-scoped.js](./1-block-scoped.js)
-
-### 2. Arrow Functions
-Rewrite the function using ES6 arrow syntax in `getNeighborhoodsList`.
-
-- [2-arrow.js](./2-arrow.js)
-
-### 3. Default Parameters
-Condense the function `getSumOfHoods` using default parameter values.
-
-- [3-default-parameter.js](./3-default-parameter.js)
-
-### 4. Rest Parameter Syntax
-Modify the function to use the rest parameter and return the number of arguments.
-
-- [4-rest-parameter.js](./4-rest-parameter.js)
-
-### 5. Spread Syntax
-Use the spread operator to concatenate arrays and characters of a string.
-
-- [5-spread-operator.js](./5-spread-operator.js)
-
-### 6. Template Literals
-Rewrite the return statement using template literals in `getSanFranciscoDescription`.
-
-- [6-string-interpolation.js](./6-string-interpolation.js)
-
-### 7. Object Property Shorthand
-Use shorthand syntax for object properties in `getBudgetObject`.
-
-- [7-getBudgetObject.js](./7-getBudgetObject.js)
-
-### 8. Computed Property Names
-Use ES6 computed property names in `getBudgetForCurrentYear`.
-
-- [8-getBudgetCurrentYear.js](./8-getBudgetCurrentYear.js)
-
-### 9. ES6 Method Properties
-Rewrite `getFullBudgetObject` using ES6 method properties.
-
-- [9-getFullBudgetObject.js](./9-getFullBudgetObject.js)
-
-## Linter and Testing
-- All files are linted using **ESLint**.
-- Testing is done using the **Jest** framework.
+4. **Configuration Files**: The project comes with the following configuration files:
+   - [`package.json`](./package.json)
+   - [`babel.config.js`](./babel.config.js)
+   - [`.eslintrc.js`](./.eslintrc.js)
 
 ---
 
-GitHub repository: [alx-backend-javascript](https://github.com/alx-backend-javascript)
+## Tasks
+
+| Task No | Description | File Name | Link |
+|---------|-------------|-----------|------|
+| 0 | Modify functions to use `const` and `let` appropriately. | `0-constants.js` | [0-constants.js](./0-constants.js) |
+| 1 | Use block-scoped variables to avoid hoisting issues. | `1-block-scoped.js` | [1-block-scoped.js](./1-block-scoped.js) |
+| 2 | Convert the add function to use ES6 arrow functions. | `2-arrow.js` | [2-arrow.js](./2-arrow.js) |
+| 3 | Condense the function using default parameters. | `3-default-parameter.js` | [3-default-parameter.js](./3-default-parameter.js) |
+| 4 | Modify function to use rest parameter syntax to count arguments. | `4-rest-parameter.js` | [4-rest-parameter.js](./4-rest-parameter.js) |
+| 5 | Concatenate arrays and strings using spread syntax. | `5-spread-operator.js` | [5-spread-operator.js](./5-spread-operator.js) |
+| 6 | Use template literals to rewrite string construction. | `6-string-interpolation.js` | [6-string-interpolation.js](./6-string-interpolation.js) |
+| 7 | Use shorthand syntax for object properties. | `7-getBudgetObject.js` | [7-getBudgetObject.js](./7-getBudgetObject.js) |
+| 8 | Use computed property names in objects. | `8-getBudgetCurrentYear.js` | [8-getBudgetCurrentYear.js](./8-getBudgetCurrentYear.js) |
+| 9 | Define methods using the new ES6 method property syntax. | `9-getFullBudget.js` | [9-getFullBudget.js](./9-getFullBudget.js) |
+| 10 | Refactor the function to use ES6 method definition and string interpolation. | `10-getFullBudget.js` | [10-getFullBudget.js](./10-getFullBudget.js) |
+| 11 | Create a class that contains the constructor and method to handle budgets. | `11-classBudget.js` | [11-classBudget.js](./11-classBudget.js) |
+| 12 | Refactor the class to use inheritance with an extended class. | `12-classRoom.js` | [12-classRoom.js](./12-classRoom.js) |
+| 13 | Use a symbol to define a unique identifier for the class. | `13-symbols.js` | [13-symbols.js](./13-symbols.js) |
+| 14 | Write a module to export a function and use import/export syntax. | `14-export-import.js` | [14-export-import.js](./14-export-import.js) |
+| 15 | Modify function to use named exports and imports. | `15-named-import-export.js` | [15-named-import-export.js](./15-named-import-export.js) |
+
+---
 
