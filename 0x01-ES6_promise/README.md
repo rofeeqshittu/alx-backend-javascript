@@ -3,7 +3,7 @@
 ## Overview
 This project introduces **ES6 Promises** in JavaScript, focusing on asynchronous programming. It covers Promises, `then`, `catch`, `await`, and `async` functions, providing hands-on tasks that deal with API responses, error handling, and multiple Promises resolution.
 
-![promises-async-wait-meme.jpeg]("One simply does not use async/await without knowing promises")
+![promises-async-wait-meme.jpeg](One simply does not use async/await without knowing promises)
 
 ## Concepts
 - Promises (what they are, how and why to use them)
