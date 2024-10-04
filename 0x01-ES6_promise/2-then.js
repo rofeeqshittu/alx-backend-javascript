@@ -9,7 +9,8 @@ function handleResponseFromAPI(promise) {
       return new Error();
     })
     .finally(() => {
-      console.log('Got a response from the API');   // Log the message everytime
+      // Log the message every time
+      console.log('Got a response from the API');
     });
 }
 
