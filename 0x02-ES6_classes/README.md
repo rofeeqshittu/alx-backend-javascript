@@ -6,7 +6,8 @@ This project focuses on understanding and implementing ES6 classes in JavaScript
 ## Concepts
 - Classes, Inheritance
 - OOP, Static methods
-- Metaprogramming and symbols
+- Metaprogramming and symbols  
+
 !['ES6 classes - For all the things'](ES6-classes.jpeg)
 ---
 ## Tasks
