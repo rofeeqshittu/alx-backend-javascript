@@ -2,7 +2,7 @@
 
 ## Overview
 This project covers various JavaScript ES6 features, focusing on data manipulation techniques using arrays, typed arrays, sets, maps, and weak maps. By the end of this project, you should be able to explain how to effectively use map, filter, and reduce on arrays, understand typed arrays, and utilize set and map data structures.
-["Array Everywhere"](array_everywhere.jpg)
+!["Array Everywhere"](array_everywhere.jpg)
 
 ## Concepts
 - Array manipulation
