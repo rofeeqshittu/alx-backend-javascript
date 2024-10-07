@@ -5,8 +5,12 @@ export default class Car {
     this._color = color;
   }
 
-  // Method to clone the Car instance, but initialize with undefined values
+  static get [Symbol.species]() {
+    return this;
+  }
+
   cloneCar() {
-    return new this.constructor(undefined, undefined, undefined);
+    const Species = this.constructor[Symbol.species];
+    return new Species();
   }
 }
