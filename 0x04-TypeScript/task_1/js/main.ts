@@ -13,7 +13,7 @@ interface Directors extends Teacher {
 }
 
 interface printTeacherFxn {
-  (firstName: string; lastName: string): string
+  (firstName: string, lastName: string): string;
 }
 
 const printTeacher: printTeacherFxn = (firstName: string, lastName: string): string => {
