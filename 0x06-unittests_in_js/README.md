@@ -6,6 +6,8 @@ This project focuses on mastering unit testing and integration testing using Jav
 
 By the end of the project, you will gain a comprehensive understanding of unit testing, how to test asynchronous functions, and integration testing with Node.js.
 
+!["You can't fail tests if you skip them"](JS-Unittest.jpeg)
+
 ## Concepts
 
 - Unit Testing: Testing individual units or components of code in isolation.
