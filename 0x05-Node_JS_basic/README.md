@@ -10,6 +10,8 @@ Key skills developed in this project include:
 - Using tools like `nodemon` and Babel for efficient development.
 - Writing and testing code with Jest and linting with ESLint.
 
+!["I can Haz - Node.Js on the API server?"](haz-NodeJs.jpeg)
+
 ---
 
 ## Concepts
